@@ -134,7 +134,35 @@ CREATE TABLE `tasks` (
 
 LOCK TABLES `tasks` WRITE;
 /*!40000 ALTER TABLE `tasks` DISABLE KEYS */;
-INSERT INTO `tasks` VALUES (1,'Nowe zadanie','knowak',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(2,'Nowe zadanie','knowak','jkowal','2016-10-09','00:00:20',100,'Variable','V','Do it!',NULL,0.34,1,0,'jkowal','Simple tasks',NULL,NULL),(3,'Nowe zadanie','knowak','jkowal','2016-10-09','20:20:00',100,'Variable','V','Do it!',NULL,0.34,1,0,'jkowal','Simple tasks',NULL,NULL),(4,'test','knowak',NULL,'2016-11-01','12:12:00',1,NULL,'V',NULL,NULL,0,NULL,0,NULL,'Help',NULL,NULL),(5,'test','knowak',NULL,'2016-11-02','12:12:00',1,NULL,'V',NULL,NULL,0,NULL,0,NULL,'Help',NULL,NULL),(6,'Zadanie testowe','knowak',NULL,'2016-11-02','23:59:00',10,NULL,'V',NULL,NULL,0,NULL,0,NULL,'Ad-hoc',NULL,NULL),(7,'Testing','knowak',NULL,'2016-11-09','23:23:00',1,NULL,'V',NULL,NULL,40,NULL,0,NULL,'Help',NULL,NULL),(8,'gui','knowak',NULL,'2016-11-03','12:00:00',1,NULL,'V',NULL,NULL,0,NULL,0,NULL,'Help',NULL,NULL),(9,'Pocalowac Agatke','knowak',NULL,'2016-11-02','12:00:00',1,NULL,'V',NULL,NULL,0,NULL,0,NULL,'Help',NULL,NULL),(10,'Ruchansko','knowak',NULL,'2016-11-02','10:00:00',1,NULL,'V',NULL,NULL,0,NULL,0,NULL,'Help',NULL,NULL),(11,'Kakao!!!','knowak',NULL,'2016-11-02','09:00:00',1,NULL,'V',NULL,NULL,0,NULL,0,NULL,'Help',NULL,NULL),(12,'Hello','knowak',NULL,'2016-11-04','23:12:00',5,NULL,'V',NULL,NULL,100,NULL,1,NULL,'Help',NULL,NULL),(13,'Zadanie z komentarzem','knowak',NULL,'2016-11-04','14:00:00',10,'V','Variable','This is new task.',NULL,0,NULL,0,NULL,'Help',NULL,NULL),(14,'Long comment','knowak',NULL,'2016-11-05','00:34:00',1,'V','Variable','Bla bla bla bla bal bal bal bla bal bal b\nwofjiowfiowefifewj\nwfiowjefoijweifjwieofj',NULL,48,NULL,0,NULL,'Ad-hoc',NULL,NULL),(15,'Nachalc sie','knowak',NULL,'2016-11-11','12:00:00',9,'V','Variable','kjhfiwahegfiuhwaipeughwuipareg',NULL,23,NULL,0,'knowak','Help',0,NULL),(16,'What is up?','knowak',NULL,'2016-11-13','12:00:00',8,'V','Variable','???',NULL,0,NULL,0,'knowak','Help',0,NULL),(17,'First task','wfigas',NULL,'2016-11-13','12:00:00',3,'V','Variable','My first task',NULL,0,NULL,0,'wfigas','Ad-hoc',0,NULL),(18,'k','knowak','wfigas','2016-11-13','13:00:00',1,'V','Variable','rgerg',NULL,100,NULL,1,'wfigas','Help',1,NULL),(19,'Bobby task','knowak','null','2016-11-15','12:00:00',1,'V','Variable','Bla',NULL,0,NULL,0,'jkowal','Management',0,'Bob'),(20,'Second task','knowak','null','2016-11-18','12:30:00',1,'V','Variable','This is another task.',NULL,0,NULL,0,'jkowal','Ad-hoc',0,'Bob'),(21,'Bob Again','knowak','null','2016-11-18','13:00:00',1,'V','Variable','efwef',NULL,0,NULL,0,'jkowal','Help',0,'Bob'),(22,'Another...',NULL,NULL,'2016-11-18','14:00:00',1,'V','Variable','woeifjwiojef',NULL,0,NULL,0,'jkowal','Help',0,'Bob'),(23,'32r23r','bjohns',NULL,'2016-11-18','12:34:00',1,'V','Variable','',NULL,0,NULL,0,'bjohns','Ad-hoc',0,'null'),(24,'qw',NULL,NULL,'2016-11-18','11:11:00',1,'V','Variable','',NULL,0,NULL,0,'jkowal','Help',0,'Bob'),(25,'1','knowak','null','2016-11-18','11:11:00',1,'V','Variable','',NULL,0,1,0,'jkowal','Help',0,'Bob'),(26,'Bobby','wfigas','wfigas','2016-11-18','12:33:00',1,'V','Variable','',NULL,0,1,0,'jkowal','Ad-hoc',0,'Bob'),(27,'zadanie','jkowal',NULL,'2016-11-20','13:00:00',1,'V','Variable','bla bla bla',NULL,24,NULL,0,'jkowal','Help',0,'null'),(28,'Report',NULL,NULL,NULL,NULL,1,'Fixed','Daily','A',NULL,NULL,1,NULL,NULL,'Ad-hoc',NULL,'Bob'),(29,'efwe','jkowal',NULL,'2016-11-23','12:12:00',1,'V','Variable','',NULL,0,NULL,0,'jkowal','Help',0,'null');
+INSERT INTO `tasks` VALUES (1,'Nowe zadanie','knowak',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2,'Nowe zadanie','knowak','jkowal','2016-10-09','00:00:20',100,'Variable','V','Do it!',NULL,0.34,1,0,'jkowal','Simple tasks',NULL,NULL),
+(3,'Nowe zadanie','knowak','jkowal','2016-10-09','20:20:00',100,'Variable','V','Do it!',NULL,0.34,1,0,'jkowal','Simple tasks',NULL,NULL),
+(4,'test','knowak',NULL,'2016-11-01','12:12:00',1,NULL,'V',NULL,NULL,0,NULL,0,NULL,'Help',NULL,NULL),
+(5,'test','knowak',NULL,'2016-11-02','12:12:00',1,NULL,'V',NULL,NULL,0,NULL,0,NULL,'Help',NULL,NULL),
+(6,'Zadanie testowe','knowak',NULL,'2016-11-02','23:59:00',10,NULL,'V',NULL,NULL,0,NULL,0,NULL,'Ad-hoc',NULL,NULL),
+(7,'Testing','knowak',NULL,'2016-11-09','23:23:00',1,NULL,'V',NULL,NULL,40,NULL,0,NULL,'Help',NULL,NULL),
+(8,'gui','knowak',NULL,'2016-11-03','12:00:00',1,NULL,'V',NULL,NULL,0,NULL,0,NULL,'Help',NULL,NULL),
+(9,'Cook dinner','knowak',NULL,'2016-11-02','12:00:00',1,NULL,'V',NULL,NULL,0,NULL,0,NULL,'Help',NULL,NULL),
+(10,'Prepare report','knowak',NULL,'2016-11-02','10:00:00',1,NULL,'V',NULL,NULL,0,NULL,0,NULL,'Help',NULL,NULL),
+(11,'Check report','knowak',NULL,'2016-11-02','09:00:00',1,NULL,'V',NULL,NULL,0,NULL,0,NULL,'Help',NULL,NULL),
+(12,'Hello','knowak',NULL,'2016-11-04','23:12:00',5,NULL,'V',NULL,NULL,100,NULL,1,NULL,'Help',NULL,NULL),
+(13,'Zadanie z komentarzem','knowak',NULL,'2016-11-04','14:00:00',10,'V','Variable','This is new task.',NULL,0,NULL,0,NULL,'Help',NULL,NULL),
+(14,'Long comment','knowak',NULL,'2016-11-05','00:34:00',1,'V','Variable','Bla bla bla bla bal bal bal bla bal bal b\nwofjiowfiowefifewj\nwfiowjefoijweifjwieofj',NULL,48,NULL,0,NULL,'Ad-hoc',NULL,NULL),
+(15,'Finance','knowak',NULL,'2016-11-11','12:00:00',9,'V','Variable','kjhfiwahegfiuhwaipeughwuipareg',NULL,23,NULL,0,'knowak','Help',0,NULL),
+(16,'What is up?','knowak',NULL,'2016-11-13','12:00:00',8,'V','Variable','???',NULL,0,NULL,0,'knowak','Help',0,NULL),
+(17,'First task','wfigas',NULL,'2016-11-13','12:00:00',3,'V','Variable','My first task',NULL,0,NULL,0,'wfigas','Ad-hoc',0,NULL),
+(18,'k','knowak','wfigas','2016-11-13','13:00:00',1,'V','Variable','rgerg',NULL,100,NULL,1,'wfigas','Help',1,NULL),
+(19,'Bobby task','knowak','null','2016-11-15','12:00:00',1,'V','Variable','Bla',NULL,0,NULL,0,'jkowal','Management',0,'Bob'),
+(20,'Second task','knowak','null','2016-11-18','12:30:00',1,'V','Variable','This is another task.',NULL,0,NULL,0,'jkowal','Ad-hoc',0,'Bob'),
+(21,'Bob Again','knowak','null','2016-11-18','13:00:00',1,'V','Variable','efwef',NULL,0,NULL,0,'jkowal','Help',0,'Bob'),
+(22,'Another...',NULL,NULL,'2016-11-18','14:00:00',1,'V','Variable','woeifjwiojef',NULL,0,NULL,0,'jkowal','Help',0,'Bob'),
+(23,'32r23r','bjohns',NULL,'2016-11-18','12:34:00',1,'V','Variable','',NULL,0,NULL,0,'bjohns','Ad-hoc',0,'null'),
+(24,'qw',NULL,NULL,'2016-11-18','11:11:00',1,'V','Variable','',NULL,0,NULL,0,'jkowal','Help',0,'Bob'),
+(25,'1','knowak','null','2016-11-18','11:11:00',1,'V','Variable','',NULL,0,1,0,'jkowal','Help',0,'Bob'),
+(26,'Bobby','wfigas','wfigas','2016-11-18','12:33:00',1,'V','Variable','',NULL,0,1,0,'jkowal','Ad-hoc',0,'Bob'),
+(27,'zadanie','jkowal',NULL,'2016-11-20','13:00:00',1,'V','Variable','bla bla bla',NULL,24,NULL,0,'jkowal','Help',0,'null'),
+(28,'Report',NULL,NULL,NULL,NULL,1,'Fixed','Daily','A',NULL,NULL,1,NULL,NULL,'Ad-hoc',NULL,'Bob'),
+(29,'efwe','jkowal',NULL,'2016-11-23','12:12:00',1,'V','Variable','',NULL,0,NULL,0,'jkowal','Help',0,'null');
 /*!40000 ALTER TABLE `tasks` ENABLE KEYS */;
 UNLOCK TABLES;
 
